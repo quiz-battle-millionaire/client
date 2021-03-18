@@ -7,7 +7,7 @@
                <h1>{{question[increment].question}}</h1>
            </div>
            <div class="answer row mt-5">
-               <div class="col-6 my-2" v-for="(answer,i) in question[increment].option" :key="i"><h1 class="text-center">{{answer.list}}</h1></div>
+               <div class="col-6 my-2" v-for="(answer,i) in question[increment].option" :key="i"><h1 class="text-center"><button type="button" class="btn btn-warning" @click="sendAnswer(answer.value,question[increment].id )">{{answer.list}}</button></h1></div>
                   <button type="button" class="btn btn-danger col-8 mx-auto mt-5" @click="logout">Keluar ae boy</button>
            </div>
          </div>
@@ -19,19 +19,41 @@ import boxplayer from "@/components/BoxPlayer"
 export default {
     data(){
         return{
-            increment:2
+            increment:0
         }
     },
     methods:{
+         showAlert(payload) {
+      // Use sweetalert2
+      this.$swal(payload);
+    },
         logout(){
             localStorage.removeItem('name')
             this.$router.push('/')
+        },
+        sendAnswer(list,id){
+
+         console.log(list,id)
+            let data =this.$store.getters.questions
+            let dataAnswer = data.filter(data => data.id === id);
+            console.log(dataAnswer[0])
+            if(list===dataAnswer[0].answer){
+                this.showAlert('Jawaban anda benar')
+            }
+            else{
+              this.showAlert('Jawaban anda salah')
+            }
+            this.increment++
+             if(this.increment===9){
+            this.showAlert('Game sudah selesai')
+            this.increment=0
+        }
         }
     },
     components:{
         boxplayer
     },
-    mounted(){
+    created(){
         this.$store.dispatch('questions')
     },
     computed:{
