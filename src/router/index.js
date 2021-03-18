@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import Login from '../views/Login.vue'
 import Home from '../views/Home.vue'
 
 Vue.use(VueRouter)
@@ -7,8 +8,20 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
+    name: 'Login',
+    component: Login
+  },
+  {
+    path: '/Home',
     name: 'Home',
-    component: Home
+    component: Home,
+    beforeEnter: (to, from, next) => {
+      if (localStorage.getItem('name') == null) {
+        next('/')
+      } else {
+        next()
+      }
+    }
   },
   {
     path: '/about',

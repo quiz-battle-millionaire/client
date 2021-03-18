@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+
+
+*{
+    margin: 0;
+}
+.set-kanban{
+    background-color:#F4F7FF;
+    height: 70vh;
+    overflow: scroll;
+}
+.color-theme{
+    background-color:white;
+}
+.backlog{
+    border-top:5px solid #90E9D9;
+    background-color: #90E9D9;
+}
+.product{
+    border-top:5px solid #637DF7;
+}
+.development{
+    border-top:5px solid #F0C64D;
+}
+.done{
+    border-top:5px solid #C37BE0;
+}
+.box-color{
+    background-color: #F9F9F9;
+    -webkit-box-shadow: 0px 0px 13px 4px rgba(232,232,232,0.32); 
+    box-shadow: 0px 0px 13px 4px rgba(232,232,232,0.32);
+}
+.height-box{
+    height: auto;
+    overflow: scroll;
+}
+.font-date{
+    font-size: 12px;
+}
+.page-login{
+    background: url('../img/distorted-smile-emoticon-pattern_52683-47630.jpeg') no-repeat fixed;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+.overlay-image{
+    background-color: black;
+    height: 100vh;
+    opacity: 0.3;
+}
+.box-login{
+    background-color: #e9c46a;
+   opacity: 0.9;
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgb(150 150 150 / 13%);
+    border-radius: .25rem;
+}
