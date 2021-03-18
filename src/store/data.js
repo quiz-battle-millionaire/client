@@ -117,7 +117,7 @@ export default[
                 "value": "c"
             },
             {
-                "list": "D .Tukang galon",
+                "list": "D. Tukang galon",
                 "value": "d"
             }
         ],
@@ -234,7 +234,7 @@ export default[
                 "value": "a"
             },
             {
-                "list": "B .Cerah",
+                "list": "B. Cerah",
                 "value": "b"
             },
             {
@@ -242,7 +242,7 @@ export default[
                 "value": "c"
             },
             {
-                "list": "D .Cinklong",
+                "list": "D. Cinklong",
                 "value": "d"
             }
         ],
