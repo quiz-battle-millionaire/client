@@ -1,23 +1,23 @@
-[
+export default[
     {
         "id": 1,
         "question": "Jika perlu waktu merebus 20 menit agar sebutir telur bisa matang, berapa lama waktu merebus yang dibutuhkan agar 10 butir telur bisa matang?",
         "answer": "b",
         "option": [
             {
-                "a": "200 menit",
+                "list": "A. 200 menit",
                 "value": "a"              
             },
             {
-                "b": "20 menit", 
+                "list": "B. 20 menit", 
                 "value": "b"               
             },
             {
-                "c": "40 menit",                
+                "list": "C. 40 menit",                
                 "value": "c"
             },
             {
-                "d": "60 menit",                
+                "list": "D. 60 menit",                
                 "value": "d"
             }
         ],
@@ -30,19 +30,19 @@
         "answer": "d",
         "option": [
             {
-                "a": "15",
+                "list": "A. 15",
                 "value": "a"
             },
             {
-                "b": "10",
+                "list": "B. 10",
                 "value": "b"
             },
             {
-                "c": "3",
+                "list": "C. 3",
                 "value": "c"
             },
             {
-                "d": "5",
+                "list": "D. 5",
                 "value": "d"
             }
         ],
@@ -55,19 +55,19 @@
         "answer": "a",
         "option": [
             {
-                "a": "Kembang cold",
+                "list": "A. Kembang cold",
                 "value": "a"
             },
             {
-                "b": "Jamur Tiram",
+                "list": "B. Jamur Tiram",
                 "value": "b"
             },
             {
-                "c": "Tomat dikasih es",
+                "list": "C. Tomat dikasih es",
                 "value": "c"
             },
             {
-                "d": "Sikap kamu",
+                "list": "D. Sikap kamu",
                 "value": "d"
             }
         ],
@@ -80,19 +80,19 @@
         "answer": "b",
         "option": [
             {
-                "a": "Tentara Amerika",
+                "list": "A. Tentara Amerika",
                 "value": "a"
             },
             {
-                "b": "Tentara sekutu",
+                "list": "B. Tentara sekutu",
                 "value": "b"
             },
             {
-                "c": "Tentara kucing oren",
+                "list": "C. Tentara kucing oren",
                 "value": "c"
             },
             {
-                "d": "tentara smurf",
+                "list": "D. tentara smurf",
                 "value": "d"
             }
         ],
@@ -105,19 +105,19 @@
         "answer": "b",
         "option": [
             {
-                "a": "Anak IT",
+                "list": "A. Anak IT",
                 "value": "a"
             },
             {
-                "b": "Petani",
+                "list": "B. Petani",
                 "value": "b"
             },
             {
-                "c": "Bisnis men",
+                "list": "C. Bisnis men",
                 "value": "c"
             },
             {
-                "d": "Tukang galon",
+                "list": "D .Tukang galon",
                 "value": "d"
             }
         ],
@@ -127,22 +127,22 @@
     {
         "id": 6,
         "question": "Mana yang lebih berat, kapas 100 kg atau besi 100 kg?",
-        "answer": "a",
+        "answer": "c",
         "option": [
             {
-                "a": "Kapas",
+                "list": "A. Kapas",
                 "value": "a"
             },
             {
-                "b": "Besi",
+                "list": "B. Besi",
                 "value": "b"
             },
             {
-                "c": "Keduanya",
+                "list": "C. Keduanya",
                 "value": "c"
             },
             {
-                "d": "Gak tau, belum pernah nyoba",
+                "list": "D. Gak tau, belum pernah nyoba",
                 "value": "d"
             }
         ],
@@ -155,19 +155,19 @@
         "answer": "b",
         "option": [
             {
-                "a": "kapas",
+                "list": "A. kapas",
                 "value": "a"
             },
             {
-                "b": "kaki",
+                "list": "B. kaki",
                 "value": "b"
             },
             {
-                "c": "batu",
+                "list": "C. batu",
                 "value": "c"
             },
             {
-                "d": "tangan",
+                "list": "D. tangan",
                 "value": "d"
             }
         ],
@@ -180,19 +180,19 @@
         "answer": "c",
         "option": [
             {
-                "a": "Surat-suratnya",
+                "list": "A. Surat-suratnya",
                 "value": "a"
             },
             {
-                "b": "Supir",
+                "list": "B. Supir",
                 "value": "b"
             },
             {
-                "c": "Satu",
+                "list": "C. Satu",
                 "value": "c"
             },
             {
-                "d": "Seatbelt",
+                "list": "D. Seatbelt",
                 "value": "d"
             }
         ],
@@ -205,19 +205,19 @@
         "answer": "d",
         "option": [
             {
-                "a": "Ada di taman",
+                "list": "A. Ada di taman",
                 "value": "a"
             },
             {
-                "b": "Berduri",
+                "list": "B. Berduri",
                 "value": "b"
             },
             {
-                "c": "Indah",
+                "list": "C. Indah",
                 "value": "c"
             },
             {
-                "d": "Bunga",
+                "list": "D. Bunga",
                 "value": "d"
             }
         ],
@@ -230,19 +230,19 @@
         "answer": "c",
         "option": [
             {
-                "a": "Cantik",
+                "list": "A. Cantik",
                 "value": "a"
             },
             {
-                "b": "Cerah",
+                "list": "B .Cerah",
                 "value": "b"
             },
             {
-                "c": "Cermin",
+                "list": "C. Cermin",
                 "value": "c"
             },
             {
-                "d": "Cinklong",
+                "list": "D .Cinklong",
                 "value": "d"
             }
         ],
