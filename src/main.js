@@ -6,8 +6,11 @@ import VueSocketIO from 'vue-socket.io'
 import "bootstrap"
 import 'bootstrap/dist/css/bootstrap.css'
 
-Vue.config.productionTip = false
+import VueSweetalert2 from 'vue-sweetalert2';
+import 'sweetalert2/dist/sweetalert2.min.css';
 
+Vue.config.productionTip = false
+Vue.use(VueSweetalert2);
 Vue.use(new VueSocketIO({
   debug: true,
   connection: 'http://metinseylan.com:1992',
