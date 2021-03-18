@@ -1,0 +1,252 @@
+[
+    {
+        "id": 1,
+        "question": "Jika perlu waktu merebus 20 menit agar sebutir telur bisa matang, berapa lama waktu merebus yang dibutuhkan agar 10 butir telur bisa matang?",
+        "answer": "b",
+        "option": [
+            {
+                "a": "200 menit",
+                "value": "a"              
+            },
+            {
+                "b": "20 menit", 
+                "value": "b"               
+            },
+            {
+                "c": "40 menit",                
+                "value": "c"
+            },
+            {
+                "d": "60 menit",                
+                "value": "d"
+            }
+        ],
+        "keterangan": "Tetap 20 menit karena kamu bisa merebus 10 butir telur bersamaan.",
+        "score": 10
+    },
+    {
+        "id": 2,
+        "question": "Kalau ada angsa lima, dikali dua. Berapa total semua angsa?",
+        "answer": "d",
+        "option": [
+            {
+                "a": "15",
+                "value": "a"
+            },
+            {
+                "b": "10",
+                "value": "b"
+            },
+            {
+                "c": "3",
+                "value": "c"
+            },
+            {
+                "d": "5",
+                "value": "d"
+            }
+        ],
+        "keterangan": "tetap 5, karena yang di kali ada 2, yang di darat ada 3.",
+        "score": 10
+    },
+    {
+        "id": 3,
+        "question": "Sayur apa yang dingin?",
+        "answer": "a",
+        "option": [
+            {
+                "a": "Kembang cold",
+                "value": "a"
+            },
+            {
+                "b": "Jamur Tiram",
+                "value": "b"
+            },
+            {
+                "c": "Tomat dikasih es",
+                "value": "c"
+            },
+            {
+                "d": "Sikap kamu",
+                "value": "d"
+            }
+        ],
+        "keterangan": "Kembang cold, kurang dingin apa coba",
+        "score": 10
+    },
+    {
+        "id": 4,
+        "question": "Tentara apa yang paling kecil?",
+        "answer": "b",
+        "option": [
+            {
+                "a": "Tentara Amerika",
+                "value": "a"
+            },
+            {
+                "b": "Tentara sekutu",
+                "value": "b"
+            },
+            {
+                "c": "Tentara kucing oren",
+                "value": "c"
+            },
+            {
+                "d": "tentara smurf",
+                "value": "d"
+            }
+        ],
+        "keterangan": "Tentara Sekutu, udah kecil eh satu kutu doang",
+        "score": 10
+    },
+    {
+        "id": 5,
+        "question": "Profesi apa yang paling keren?",
+        "answer": "b",
+        "option": [
+            {
+                "a": "Anak IT",
+                "value": "a"
+            },
+            {
+                "b": "Petani",
+                "value": "b"
+            },
+            {
+                "c": "Bisnis men",
+                "value": "c"
+            },
+            {
+                "d": "Tukang galon",
+                "value": "d"
+            }
+        ],
+        "keterangan": "Petani, karna nyang-cool",
+        "score": 10
+    },
+    {
+        "id": 6,
+        "question": "Mana yang lebih berat, kapas 100 kg atau besi 100 kg?",
+        "answer": "a",
+        "option": [
+            {
+                "a": "Kapas",
+                "value": "a"
+            },
+            {
+                "b": "Besi",
+                "value": "b"
+            },
+            {
+                "c": "Keduanya",
+                "value": "c"
+            },
+            {
+                "d": "Gak tau, belum pernah nyoba",
+                "value": "d"
+            }
+        ],
+        "keterangan": "Keduanya, kan sama sama 100kg",
+        "score": 10
+    },
+    {
+        "id": 7,
+        "question": "Jika ada 1 kilo batu dan ada 1 kilo kapas, ketika dijatuhkan ke atas kaki, apa yang lebih sakit?",
+        "answer": "b",
+        "option": [
+            {
+                "a": "kapas",
+                "value": "a"
+            },
+            {
+                "b": "kaki",
+                "value": "b"
+            },
+            {
+                "c": "batu",
+                "value": "c"
+            },
+            {
+                "d": "tangan",
+                "value": "d"
+            }
+        ],
+        "keterangan": "Kaki, kan dijatuhkan ke kaki, ya pasti sakit kakinya",
+        "score": 10
+    },
+    {
+        "id": 8,
+        "question": "Apabila mengendarai mobil wajib bawa ... S______",
+        "answer": "c",
+        "option": [
+            {
+                "a": "Surat-suratnya",
+                "value": "a"
+            },
+            {
+                "b": "Supir",
+                "value": "b"
+            },
+            {
+                "c": "Satu",
+                "value": "c"
+            },
+            {
+                "d": "Seatbelt",
+                "value": "d"
+            }
+        ],
+        "keterangan": "Satu, kalau 2 gimana cara bawanya",
+        "score": 10
+    },
+    {
+        "id": 9,
+        "question": "Mawar melati semuanya…",
+        "answer": "d",
+        "option": [
+            {
+                "a": "Ada di taman",
+                "value": "a"
+            },
+            {
+                "b": "Berduri",
+                "value": "b"
+            },
+            {
+                "c": "Indah",
+                "value": "c"
+            },
+            {
+                "d": "Bunga",
+                "value": "d"
+            }
+        ],
+        "keterangan": "Bunga, emang apalagi selain bunga?",
+        "score": 10
+    },
+    {
+        "id": 10,
+        "question": "Cermin jika di lap jadi… C_______",
+        "answer": "c",
+        "option": [
+            {
+                "a": "Cantik",
+                "value": "a"
+            },
+            {
+                "b": "Cerah",
+                "value": "b"
+            },
+            {
+                "c": "Cermin",
+                "value": "c"
+            },
+            {
+                "d": "Cinklong",
+                "value": "d"
+            }
+        ],
+        "keterangan": "Cermin, kan dilap berapa kali juga enggak berubah jadi meja",
+        "score": 10
+    }
+]
