@@ -55,4 +55,7 @@ export default {
 .btn-fun{
   background-color: #023e8a;
 }
+.form-group {
+  border-radius: 5px;
+}
 </style>

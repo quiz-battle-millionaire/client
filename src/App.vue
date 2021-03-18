@@ -5,5 +5,7 @@
 </template>
 
 <style>
-body{background-color: blue;}
+body{
+  background-color: blue;
+}
 </style>

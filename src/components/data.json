@@ -248,5 +248,255 @@
         ],
         "keterangan": "Cermin, kan dilap berapa kali juga enggak berubah jadi meja",
         "score": 10
+    },
+    {
+        "id": 11,
+        "question": "Siapa penyanyi suka sebar undangan?",
+        "answer": "a",
+        "option": [
+            {
+                "a": "Agnes Monikah",
+                "value": "a"              
+            },
+            {
+                "b": "Anjay Drive", 
+                "value": "b"               
+            },
+            {
+                "c": "Jeketi4848",                
+                "value": "c"
+            },
+            {
+                "d": "Awkeren",                
+                "value": "d"
+            }
+        ],
+        "keterangan": "Agnes Monikah lah, boy, udah jelas",
+        "score": 10
+    },
+    {
+        "id": 12,
+        "question": "Kota apa yang uwu?",
+        "answer": "b",
+        "option": [
+            {
+                "a": "Bekasih",
+                "value": "a"              
+            },
+            {
+                "b": "Istanembul", 
+                "value": "b"               
+            },
+            {
+                "c": "Berlin-ang air mata",                
+                "value": "c"
+            },
+            {
+                "d": "Salahtiga",                
+                "value": "d"
+            }
+        ],
+        "keterangan": "Yang embul-embul biasanya uwu ya Istanembul jawabannya",
+        "score": 10
+    },
+    {
+        "id": 13,
+        "question": "Orang orang apa yang ditembak gak mati?",
+        "answer": "d",
+        "option": [
+            {
+                "a": "Orang-orangan sawah",
+                "value": "a"              
+            },
+            {
+                "b": "Orang aring", 
+                "value": "b"               
+            },
+            {
+                "c": "Orang juice",                
+                "value": "c"
+            },
+            {
+                "d": "Orang gak kena",                
+                "value": "d"
+            }
+        ],
+        "keterangan": "Yaiya ditembak kagak mati, orang kagak kena",
+        "score": 10
+    },
+    {
+        "id": 14,
+        "question": "Siapa musisi yang suka bikin orang batuk-batuk?",
+        "answer": "c",
+        "option": [
+            {
+                "a": "Ariana Grande",
+                "value": "a"              
+            },
+            {
+                "b": "Demi Lovatoast", 
+                "value": "b"               
+            },
+            {
+                "c": "A$AP ROCKO",                
+                "value": "c"
+            },
+            {
+                "d": "Justin Bibir",                
+                "value": "d"
+            }
+        ],
+        "keterangan": "A$AP ROCKO musisi yang suka ngerocko",
+        "score": 10
+    },
+    {
+        "id": 15,
+        "question": "Kalo bahasa Indonesianya Adul?",
+        "answer": "a",
+        "option": [
+            {
+                "a": "Dewas",
+                "value": "a"              
+            },
+            {
+                "b": "Muda", 
+                "value": "b"               
+            },
+            {
+                "c": "Tinggi",                
+                "value": "c"
+            },
+            {
+                "d": "Tampan",                
+                "value": "d"
+            }
+        ],
+        "keterangan": "Bahasa Indonesianya 'adul' ya 'dewas' kalo 'adult' ya 'dewasa'",
+        "score": 10
+    },
+    {
+        "id": 16,
+        "question": "Penyanyi siapa yang suka jualan minyak?",
+        "answer": "b",
+        "option": [
+            {
+                "a": "Melly Goes Slow",
+                "value": "a"              
+            },
+            {
+                "b": "Ed Cheran", 
+                "value": "b"               
+            },
+            {
+                "c": "Ayu Keriting",                
+                "value": "c"
+            },
+            {
+                "d": "Pingsan Mambo",                
+                "value": "d"
+            }
+        ],
+        "keterangan": "Ed Cheran penyanyi yang suka jual minyak edcheran",
+        "score": 10
+    },
+    {
+        "id": 17,
+        "question": "Ubin apa yang suka makan ayam goreng?",
+        "answer": "d",
+        "option": [
+            {
+                "a": "Ubin jalar",
+                "value": "a"              
+            },
+            {
+                "b": "Ubin dan Jun", 
+                "value": "b"               
+            },
+            {
+                "c": "Ubin mesjid",                
+                "value": "c"
+            },
+            {
+                "d": "Ubin Ibin",                
+                "value": "d"
+            }
+        ],
+        "keterangn": "Ubin Ibin yang suka makan ayam goreng sampe Kak Ros gak kebagian",
+        "score": 10
+    },
+    {
+        "id": 18,
+        "question": "Bulan apa yang ada 28 hari?",
+        "answer": "d",
+        "option": [
+            {
+                "a": "Januari",
+                "value": "a"              
+            },
+            {
+                "b": "Februari", 
+                "value": "b"               
+            },
+            {
+                "c": "Maret",                
+                "value": "c"
+            },
+            {
+                "d": "Semua bulan laccch",                
+                "value": "d"
+            }
+        ],
+        "keterangan": "Semua bulan ada 28 hari donk, boy. Coba hitung lagi",
+        "score": 10
+    },
+    {
+        "id": 19,
+        "question": "Hewan apa yang bersaudara?",
+        "answer": "a",
+        "option": [
+            {
+                "a": "Katak beradik",
+                "value": "a"              
+            },
+            {
+                "b": "Naga Indosiyar", 
+                "value": "b"               
+            },
+            {
+                "c": "Beruang Madu",                
+                "value": "c"
+            },
+            {
+                "d": "Berang-berangan",           
+                "value": "d"
+            }
+        ],
+        "keterangan": "Katak beradik jelasss",
+        "score": 10
+    },
+    {
+        "id": 20,
+        "question": "Malam apa yang paling seram?",
+        "answer": "c",
+        "option": [
+            {
+                "a": "Malambaikan tangan pada kamera 3x",
+                "value": "a"              
+            },
+            {
+                "b": "Malam ini ku sendiri tak ada yang menemani", 
+                "value": "b"               
+            },
+            {
+                "c": "Malampir",                
+                "value": "c"
+            },
+            {
+                "d": "Malam sunyi",                
+                "value": "d"
+            }
+        ],
+        "keterangan": "Malampir udah paling bener paling seram :(",
+        "score": 10
     }
 ]
