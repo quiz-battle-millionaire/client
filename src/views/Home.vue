@@ -75,7 +75,7 @@ export default {
         this.showAlert('Jawaban anda salah')
       }
       
-      if (this.increment === 2) {
+      if (this.increment === 9) {
         this.increment = 0
         this.$socket.emit('setWin', 'Selesai')
       }
