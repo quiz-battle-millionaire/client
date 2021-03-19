@@ -16,6 +16,7 @@ export function SOCKET_player ({ commit }, payload) {
     this._vm.$swal(
       `Game sudah selesai Dan pemenangnya adalah ${payload.name} dengan Score ${payload.score}`
     ).then(()=>{
+      this.state.player = [];
       localStorage.removeItem('name')
       router.push('/')
     })
