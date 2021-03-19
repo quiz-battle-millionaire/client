@@ -1,5 +1,6 @@
 <template>
     <div class="themeColor">
+
         <div class="container-fluid page-home mx-0 px-0">
 
         
@@ -27,19 +28,41 @@ import boxplayer from "@/components/BoxPlayer"
 export default {
     data(){
         return{
-            increment:2
+            increment:0
         }
     },
     methods:{
+         showAlert(payload) {
+      // Use sweetalert2
+      this.$swal(payload);
+    },
         logout(){
             localStorage.removeItem('name')
             this.$router.push('/')
+        },
+        sendAnswer(list,id){
+
+         console.log(list,id)
+            let data =this.$store.getters.questions
+            let dataAnswer = data.filter(data => data.id === id);
+            console.log(dataAnswer[0])
+            if(list===dataAnswer[0].answer){
+                this.showAlert('Jawaban anda benar')
+            }
+            else{
+              this.showAlert('Jawaban anda salah')
+            }
+            this.increment++
+             if(this.increment===9){
+            this.showAlert('Game sudah selesai')
+            this.increment=0
+        }
         }
     },
     components:{
         boxplayer
     },
-    mounted(){
+    created(){
         this.$store.dispatch('questions')
     },
     computed:{
