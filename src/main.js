@@ -13,7 +13,7 @@ Vue.config.productionTip = false
 Vue.use(VueSweetalert2);
 Vue.use(new VueSocketIO({
   debug: true,
-  connection: 'http://localhost:3000',
+  connection: 'https://gameps5.herokuapp.com/',
   vuex: {
     store,
     actionPrefix: 'SOCKET_',
