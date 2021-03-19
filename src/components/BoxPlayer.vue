@@ -19,7 +19,8 @@
         background-color: rgb(202, 203, 224);
         z-index: 10;
         height: 20vh;
-        overflow: scroll;  
+        overflow-x: hidden;  
+        overflow-y:scroll ;
     }
 
 /* width */
