@@ -8,3 +8,8 @@ export function SOCKET_player ({ commit }, payload) {
   commit('SET_PLAYERS', payload)
   console.log(payload)
   } 
+
+  export function SOCKET_winner ({ commit }, payload) {
+    commit('SET_WINNER', payload)
+    console.log(payload)
+    } 

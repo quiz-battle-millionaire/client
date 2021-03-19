@@ -7,22 +7,31 @@
             <div>
                 <img class="presenting-img" src="../../public/img/willsmith.png" alt="">
             </div>
-        <boxplayer />
-        <div class="question col-8 mt-5 mx-auto">
+        <boxplayer/>
+        <div class="question col-8 mt-0 mx-auto">
             <div class="pt-1">
-                <div class="box-question mt-3 py-3 px-3">
+                <div class="box-question mt-0 py-3 px-3">
                 <h1>{{question[increment].question}}</h1>
             </div>
-            <div class="answer row mt-5">
-                <div class="col-6 my-2" v-for="(answer,i) in question[increment].option" :key="i"><h1 class="text-center">{{answer.list}}</h1></div>
-                    <button type="button" class="btn btn-info col-8 mx-auto mt-5" @click="logout">Keluar ae boy</button>
-            </div>
+           <div class="answer row mt-5">
+               <div class="col-6 my-2 d-flex justify-content-center" v-for="(answer,i) in question[increment].option" :key="i">
+                
+                       <button type="button" class="btn btn-warning text-center" @click="sendAnswer(answer.value,question[increment].id )">
+                              <h1 class="text-center">
+                           {{answer.list}}
+  </h1>
+                       </button>
+                     
+                   </div>
+                  <button type="button" class="btn btn-danger col-8 mx-auto mt-5" @click="logout">Keluar ae boy</button>
+           </div>
             
             </div>
         </div>
        </div>
     </div>
 </template>
+
 <script>
 import boxplayer from "@/components/BoxPlayer"
 export default {
@@ -37,8 +46,10 @@ export default {
       this.$swal(payload);
     },
         logout(){
-            localStorage.removeItem('name')
+            
             this.$router.push('/')
+            this.$socket.emit('logout',localStorage.name)
+            localStorage.removeItem('name')
         },
         sendAnswer(list,id){
 
@@ -47,15 +58,23 @@ export default {
             let dataAnswer = data.filter(data => data.id === id);
             console.log(dataAnswer[0])
             if(list===dataAnswer[0].answer){
-                this.showAlert('Jawaban anda benar')
+            this.$socket.emit('setScore',localStorage.name,10)
+            if(this.increment<2){
+            this.showAlert('Jawaban anda benar')
+            }
+            else if(this.increment===2){
+ this.showAlert(`Game sudah selesai Dan pemenangnya adalah ${winner.name} dengan Score ${winner.score}`)
+            }
             }
             else{
+                 this.$socket.emit('setScore',localStorage.name,-10)
               this.showAlert('Jawaban anda salah')
             }
             this.increment++
-             if(this.increment===9){
-            this.showAlert('Game sudah selesai')
+             if(this.increment===2){
             this.increment=0
+            this.$socket.emit('setWin','Selesai')
+            this.checkWin()
         }
         }
     },
@@ -64,12 +83,22 @@ export default {
     },
     created(){
         this.$store.dispatch('questions')
-        this.$socket.emit('setPlayer', localStorage.name)
+        this.$socket.emit('setPlayer', {
+            name:localStorage.name,
+            score:0
+        })
+        
     },
     computed:{
         question(){
             console.log(this.$store.getters.questions)
            return this.$store.getters.questions
+        },
+        player(){
+            return this.$store.getters.player
+        },
+          winner(){
+            return this.$store.state.winner
         }
     }
 }

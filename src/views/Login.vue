@@ -47,7 +47,7 @@ sockets: {
         this.$router.push('/Home')
         // this.$store.commit('SET_PLAYERS', this.name)
         this.name = ''
-        this.$swal('Login success bor')
+        this.$swal('Login success bor, Mau main gak?')
       } else {
         this.$swal('Yang bener ae bos')
       }
