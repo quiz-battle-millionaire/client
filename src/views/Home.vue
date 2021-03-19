@@ -64,6 +64,7 @@ export default {
     },
     created(){
         this.$store.dispatch('questions')
+        this.$socket.emit('setPlayer', localStorage.name)
     },
     computed:{
         question(){
