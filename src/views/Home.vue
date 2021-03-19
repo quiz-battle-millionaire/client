@@ -41,6 +41,10 @@
         </div>
       </div>
     </div>
+    <audio autoplay="true">
+    <source src="../../public/img/background music.mp3" type="audio/mpeg">
+    Browsermu tidak mendukung tag audio, upgrade donk!
+</audio>
   </div>
 </template>
 
