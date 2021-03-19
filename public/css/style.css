@@ -73,3 +73,14 @@
     border: 1px solid rgb(150 150 150 / 13%);
     border-radius: .25rem;
 }
+.page-home {
+    background: url('../img/bg1.jpg') no-repeat fixed;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    height: 100vh;
+/* background: url('../img/distorted-smile-emoticon-pattern_52683-47630.jpeg') no-repeat fixed; */
+    
+  
+}

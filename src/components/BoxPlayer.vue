@@ -14,9 +14,32 @@
 <style scoped>
  .box-score{
         border-radius: 10px;
-        background-color: white;
+        background-color: rgb(202, 203, 224);
         z-index: 10;
         height: 20vh;
-        overflow: scroll;
+        overflow: scroll;  
     }
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius:7px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(96, 84, 201);
+  border-radius:7px;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(127, 118, 209); 
+}
 </style>
