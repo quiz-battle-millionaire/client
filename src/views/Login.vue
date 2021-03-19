@@ -35,10 +35,22 @@ export default {
       name:''
     }
   },
+sockets: {
+    connect () {
+      console.log('connected')
+    }
+  },
   methods:{
     setName(){
-      localStorage.setItem('name',this.name)
-      this.$router.push('/Home')
+      if (this.name) {
+        localStorage.setItem('name',this.name)
+        this.$router.push('/Home')
+        // this.$store.commit('SET_PLAYERS', this.name)
+        this.name = ''
+        this.$swal('Login success bor')
+      } else {
+        this.$swal('Yang bener ae bos')
+      }
     }
   }
 }
